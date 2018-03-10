@@ -8,6 +8,7 @@
 <section id="pagetitle" class="pagetitle dark" <?php echo $header_image; ?>>
 	<div class="container">
 		<?php do_action('cpotheme_title'); ?>
+		<?php do_action('cpotheme_before_content'); ?>
 	</div>
 </section>
 <?php do_action('cpotheme_after_title'); ?>
