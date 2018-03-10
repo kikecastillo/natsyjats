@@ -1,7 +1,7 @@
 /*
 Theme Name:Allegiant
 Theme URI:https://www.cpothemes.com/theme/allegiant
-Description:Allegiant is a free multipurpose WordPress theme perfect for agencies and professionals. This theme comes with support for a full homepage slider, feature blocks, portfolios, services, team members, and even testimonials, all thanks to its companion plugin CPO Content Types. Allegiant is one of the best business WordPress themes thanks to its neutral design and extreme flexibility. Moreover, this theme also integrates with popular plugins such as WooCommerce, Yoast SEO, WPML, and Contact Form 7. 
+Description:Allegiant is a free multipurpose WordPress theme perfect for agencies and professionals. This theme comes with support for a full homepage slider, feature blocks, portfolios, services, team members, and even testimonials, all thanks to its companion plugin CPO Content Types. Allegiant is one of the best business WordPress themes thanks to its neutral design and extreme flexibility. Moreover, this theme also integrates with popular plugins such as WooCommerce, Yoast SEO, WPML, and Contact Form 7.
 Tags: one-column, two-columns, right-sidebar, full-width-template, sticky-post, theme-options, custom-background, custom-menu, featured-images, threaded-comments, translation-ready
 Author:CPOThemes
 Author URI:https://www.cpothemes.com
@@ -18,16 +18,16 @@ GENERAL ELEMENTS
 
 /* BODY */
 ::selection  { color:#fff; background-color:#89ce40; }
-::-moz-selection { color:#fff; background-color:#89ce40; }		
+::-moz-selection { color:#fff; background-color:#89ce40; }
 body { font-family:'Source Sans Pro', Arial, Helvetica, sans-serif; background:#fff; color:#99a; font-size:1em; line-height:1.6; }
 
 /* HEADINGS */
 h1, h2, h3, h4, h5, h6 { color:#567; line-height:1.2; margin:0 0 20px; }
-h1 { font-size:2.5em; } 
-h2 { font-size:2em; } 
-h3 { font-size:1.5em; } 
-h4 { font-size:1.3em; } 
-h5 { font-size:1.2em; } 
+h1 { font-size:2.5em; }
+h2 { font-size:2em; }
+h3 { font-size:1.5em; }
+h4 { font-size:1.3em; }
+h5 { font-size:1.2em; }
 h6 { font-size:1.1em; }
 
 /* HYPERLINKS */
@@ -39,10 +39,10 @@ blockquote { display:block; font-style:italic; padding:0 5%; margin:25px 0; }
 blockquote cite, blockquote em, blockquote i { font-style:normal; }
 
 /* FORMS */
-input[type=text], input[type=password], input[type=input], 
-input[type=tel], input[type=url], input[type=email], 
-input[type=number], input[type=range], input[type=search], input[type=color], 
-input[type=time], input[type=week], input[type=month], input[type=date], input[type=datetime], 
+input[type=text], input[type=password], input[type=input],
+input[type=tel], input[type=url], input[type=email],
+input[type=number], input[type=range], input[type=search], input[type=color],
+input[type=time], input[type=week], input[type=month], input[type=date], input[type=datetime],
 textarea, select { border:1px solid #ddd; padding:8px 6px; background:#f5f5f5; }
 input[type=submit] { width:auto; -webkit-appearance:none; }
 
@@ -53,11 +53,11 @@ body .secondary-color { color:#444449; }
 body .secondary-color-bg { background-color:#444449; }
 
 /* SHORTCODE CUSTOM STYLING */
-html body .button, 
-html body .button:link, 
-html body .button:visited, 
+html body .button,
+html body .button:link,
+html body .button:visited,
 input[type=submit] { border-radius:2px; border:2px solid #89ce40; text-shadow:none; background:none; color:#89ce40; -moz-transition:0.4s all; -webkit-transition:0.4s all; transition:0.4s all; }
-html body .button:hover, 
+html body .button:hover,
 input[type=submit]:hover { color:#fff; background:#89ce40; }
 
 
@@ -101,11 +101,11 @@ LAYOUT
 .slider-slides .slide-content { position:relative; font-size:1.2em; padding:0 0 30px; margin:0 0 30px; }
 .slider-slides .slide-content:after { content:' '; position:absolute; background:#888; bottom:0; left:0; width:100px; height:1px; }
 /* Prev/Next */
-.slider-prev, 
+.slider-prev,
 .slider-next { -moz-transition:0.2s all; -webkit-transition:0.2s all; transition:0.2s all; opacity:0.3; }
-.slider:hover .slider-prev, 
+.slider:hover .slider-prev,
 .slider:hover .slider-next { opacity:1; }
-.slider-prev, 
+.slider-prev,
 .slider-next { position:absolute; width:40px; height:100px; font-size:30px; line-height:70px; margin-top:-35px; top:50%; left:1%; text-align:center; color:#fff; z-index:999; cursor:pointer; }
 .slider-next { right:1%; left:auto; }
 .slider-prev:before,
@@ -116,7 +116,7 @@ LAYOUT
 .slider-next:before { -moz-transform:rotate(-60deg); -webkit-transform:rotate(-60deg); transform:rotate(-60deg); }
 .slider-prev:after,
 .slider-next:after { -moz-transform:rotate(60deg); -webkit-transform:rotate(60deg); transform:rotate(60deg); }
-.slider-next:before, 
+.slider-next:before,
 .slider-next:after { left:auto; right:25%; -moz-transform-origin:right; -webkit-transform-origin:right; transform-origin:right; }
 /* Transitions */
 .slider-slides .slide-body .slide-caption { -moz-transform:translateY(60px); -webkit-transform:translateY(60px); transform:translateY(60px); opacity:0; -moz-transition:1s all; -webkit-transition:1s all; transition:1s all; }
@@ -223,12 +223,12 @@ NAVIGATION
 /* Menu Elements */
 .menu-main li a { padding:10px; font-size:1.1em; color:#99a; }
 .menu-main li a .menu-description { }
-.menu-main li:hover > a, 
+.menu-main li:hover > a,
 .menu-main li a:hover { }
 /* Current item highlight both normally and on hover */
-.menu-main .current-menu-ancestor > a, 
+.menu-main .current-menu-ancestor > a,
 .menu-main .current-menu-item > a { }
-.menu-main .current_page_ancestor > a:hover, 
+.menu-main .current_page_ancestor > a:hover,
 .menu-main .current-menu-item > a:hover { }
 /* Children Elements */
 .menu-main .menu-item-has-children:before { color:#ccc; content:'\f107'; font-size:10px; }
@@ -236,7 +236,7 @@ NAVIGATION
 .menu-main > li > ul:before { visibility:hidden; content:' '; opacity:0; margin:0; position:absolute; top:0; left:20px; margin:-11px 0 0; border-bottom:10px solid #ddd; border-left:10px solid transparent; border-right:10px solid transparent; z-index:9999; }
 .menu-main > li > ul:after { visibility:hidden; content:' '; opacity:0; margin:0; position:absolute; top:0; left:20px; margin:-10px 0 0; border-bottom:10px solid #fff; border-left:10px solid transparent; border-right:10px solid transparent; z-index:9999; }
 .menu-main li ul li a { text-transform:none; font-size:0.9em; }
-.menu-main li ul li:hover > a, 
+.menu-main li ul li:hover > a,
 .menu-main li ul li a:hover { background-color:none; }
 
 
@@ -275,7 +275,7 @@ NAVIGATION
 
 
 /* NUMBERED PAGINATION */
-.pagination span, 
+.pagination span,
 .pagination a { border-radius:0px; padding:15px 20px; border:1px solid #eee; }
 
 
@@ -446,12 +446,12 @@ RESPONSIVE STYLES
 
 /* TABLET PORTRAIT */
 @media screen and (max-width: 800px){
-    
+
 	.header .logo { float:left; }
-	
+
 	.slider-slides .slide .slide-caption,
 	.slider-slides .slide .slide-image { float:none; width:auto; }
-	
+
 	.pagetitle .pagetitle-title { float:none; font-size:2em; }
 	.breadcrumb { float:none; }
 }
@@ -459,18 +459,18 @@ RESPONSIVE STYLES
 
 /* SMARTPHONE */
 @media only screen and (max-width: 600px){
-	
+
 	.topmenu { display:none; }
-	
+
 	.social { float:left; }
-	
+
 	.slider-slides .slide .slide-image { display:none; }
-	
+
 	/* NAVIGATION */
 	.menu-top { text-align:center;  }
 	.menu-top li { display:inline-block; }
 	.menu-top li a { margin:0 auto; }
-	
+
 	.footermenu { float:none; }
 	.menu-footer li a { margin:0 10px 10px 0; }
 }
