@@ -393,3 +393,24 @@ body #subfooter {
 	color: white;
 	opacity: 0.8;
 }
+
+#pagetitle {
+  padding: 0;
+}
+
+#pagetitle h1 {
+  position: absolute;
+  bottom: 50%
+  color: white;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+  font-size: 25px;
+}
+
+#pagetitle #breadcrumb {
+  display: none;
+}
+
+#pagetitle .single-image.wp-post-image {
+  width: 100%;
+  margin: 0;
+}
