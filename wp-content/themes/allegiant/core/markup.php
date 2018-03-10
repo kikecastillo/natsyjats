@@ -189,7 +189,7 @@ if ( ! function_exists( 'cpotheme_subfooter' ) ) {
 if ( ! function_exists( 'cpotheme_footer' ) ) {
 	function cpotheme_footer() {
 		echo '<div class="footer-content">';
-		echo '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) . '. ' . sprintf( __( '<a href="%1$s">%2$s</a> theme by CPOThemes.', 'allegiant' ), esc_url( CPOTHEME_PREMIUM_URL ), esc_attr( CPOTHEME_NAME ) );
+		echo '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' );
 		echo '</div>';
 	}
 }
@@ -934,7 +934,7 @@ if ( ! function_exists( 'cpotheme_comment' ) ) {
 								</div>
 							</div>
 
-							<div class="comment-content">    
+							<div class="comment-content">
 								<?php if ( '0' == $comment->comment_approved ) : ?>
 						<span class="comment-approval"><?php _e( 'Your comment is awaiting approval.', 'allegiant' ); ?></span>
 					<?php endif; ?>
