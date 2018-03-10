@@ -6,7 +6,7 @@
 <div id="main" class="main">
 	<div class="container">
 		<section id="content" class="content">
-			<!-- <?php do_action('cpotheme_before_content'); ?> -->
+			<?php do_action('cpotheme_before_content'); ?>
 
 			<?php if(have_posts()) while(have_posts()): the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
