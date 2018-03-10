@@ -371,3 +371,8 @@ body #subfooter {
 .allegiant_pro_template .menu-main li ul .has-children:before {
 	margin-top: -12px;
 }
+
+.tagline {
+  padding: 0;
+  background-color: white;
+}
