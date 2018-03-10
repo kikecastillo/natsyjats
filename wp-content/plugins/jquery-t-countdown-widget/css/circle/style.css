@@ -25,3 +25,21 @@
 	margin-top: 40px;
 	text-transform: uppercase;
 }
+
+/* shortcode for countdown: [tminus t="31-08-2018 15:00:00" style="circle" omitweeks="true" days="d" hours="h" minutes="m" seconds="s"/] */
+.circle-tripdash {
+	border: 0;
+	font-size: 1em;
+	margin: 0;
+	height: 85px;
+}
+
+.circle-dash_title {
+	text-transform: none;
+	margin: 0;
+	font-size: 10px;
+}
+
+.circle-days_trip_dash, .circle-minutes_trip_dash, .circle-seconds_trip_dash {
+	width: 60px;
+}
