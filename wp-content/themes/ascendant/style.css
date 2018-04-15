@@ -429,6 +429,25 @@ body #subfooter {
   margin: 0 35% !important;
 }
 
+@media (max-width: 600px) {
+  .tminus_countdown {
+    width: 90% !important;
+    margin: 0 5% !important;
+  }
+
+  .features .feature .feature-image {
+    min-height: 0px;
+  }
+
+  .services .service .service-body {
+    margin-left: 15px;
+  }
+
+  .slider-slides {
+    height: 400px;
+  }
+}
+
 .tminus.section-heading {
   font-size: 22px;
   margin-bottom: 30px;
@@ -460,4 +479,18 @@ body.home.custom-background {
 
 section#pagetitle {
   background-image: none !important;
+}
+
+.service-content p {
+  margin-bottom: 0.5em;
+}
+
+.service-link a {
+  text-decoration: underline;
+  color: black !important;
+  opacity: 0.9;
+}
+
+.services .service .service-title a:hover {
+  opacity: 0.9;
 }

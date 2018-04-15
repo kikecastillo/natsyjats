@@ -8,6 +8,7 @@
 		</h3>
 		<div class="service-content">
 			<?php the_excerpt(); ?>
+			<p class="service-link"><a href="<?php the_permalink(); ?>">Leer más</a></p>
 		</div>
 		<?php cpotheme_edit(); ?>
 	</div>

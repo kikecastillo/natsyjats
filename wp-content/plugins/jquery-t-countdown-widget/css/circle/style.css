@@ -3,7 +3,7 @@
 	display: inline-block;
 	width: 25%;
 	text-align: center;
-	width: 140px;
+	width: 40%;
 	height: 140px;
 	border: 1px solid #000;
 	-moz-border-radius: 70px;
@@ -42,5 +42,5 @@
 }
 
 .circle-hours_dash, .circle-minutes_dash, .circle-seconds_dash {
-	width: 60px;
+	width: 20%;
 }
