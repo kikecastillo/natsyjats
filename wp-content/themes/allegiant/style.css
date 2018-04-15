@@ -48,7 +48,7 @@ input[type=submit] { width:auto; -webkit-appearance:none; }
 
 /* MAIN THEME COLORS */
 body .primary-color { color:#89ce40; }
-body .primary-color-bg { background-color:#89ce40; }
+body .primary-color-bg { background-color:gray; }
 body .secondary-color { color:#444449; }
 body .secondary-color-bg { background-color:#444449; }
 
@@ -82,13 +82,13 @@ LAYOUT
 
 
 /* HEADER */
-.header { position:relative; background:#fff; border-bottom:1px solid #f0f0f0; width:100%; padding:10px 0; }
+.header { position:relative; background:#fff; border-bottom:0px solid #f0f0f0; width:100%; padding:10px 0; }
 .header .logo { float:left; padding-top:0; }
 .header .header-content { float:right; padding:0 0 0 20px; }
 
 
 /* HOMEPAGE SLIDES */
-.slider { padding:0; margin:0; position:relative; text-align:center; -moz-transition:0.3s all; -webkit-transition:0.3s all; transition:0.3s all; }
+.slider { padding:0; margin:0; position:relative; text-align:center; -moz-transition:0.3s all; -webkit-transition:0.3s all; transition:0.3s all; padding-top: 40px;}
 .slider-slides { display:block; overflow:hidden; padding:0; margin:0; height:550px; }
 .slider-slides .slide { overflow:hidden; background-position:center; background-size:cover; position:relative; list-style:none; width:100%; height:100%; margin:0; padding:0; }
 .slider-slides .slide-body { position:absolute; top:15%; left:0; width:100%; }
@@ -139,7 +139,7 @@ LAYOUT
 /* PAGE BANNERS AND TITLES */
 .banner { overflow:hidden; padding:0; margin:0; max-height:500px; }
 .banner .banner-image { display:block; width:100%; height:auto; line-height:0; padding:0; margin:0; }
-.pagetitle { overflow:hidden; position:relative; background:rgba(0,0,0,0.4); background-size:cover; background-position:center; text-align:center; padding:100px 0; margin:0; }
+.pagetitle { overflow:hidden; position:relative; background:none; background-size:cover; background-position:center; text-align:center; padding:100px 0; margin:0; }
 .pagetitle .pagetitle-title { margin:0; font-size:2.5em; text-transform:uppercase; }
 
 
@@ -148,12 +148,12 @@ LAYOUT
 
 
 /* SECTIONS */
-.section-heading { position:relative; margin:0 0 40px; padding:0 0 30px; text-align:center; line-height:1.2; font-size:2.5em; text-transform:uppercase; }
+.section-heading { position:relative; margin:0 0 0px; padding:0 0 0px; text-align:center; line-height:1.2; font-size:2.5em; text-transform:uppercase; }
 .section-heading:before { content:' '; position:absolute; background:#bbb; bottom:0; left:50%; margin-left:-50px; width:100px; height:1px; }
 
 
 /* HOMEPAGE FEATURES */
-.features { margin:0; background:#fff; padding:50px 0 10px; }
+.features { margin:0; background:transparent; padding:50px 0 10px; }
 .features .feature { margin:0 0 40px; text-align:center; }
 .features .feature .feature-image { display:block; position:relative; min-height:102px; margin:0 0 20px; }
 .features .feature .feature-image img { display:block; margin:0 auto; }
@@ -193,7 +193,7 @@ LAYOUT
 
 
 /* PAGE CONTENT */
-.main { background:#fff; }
+.main { background: transparent; }
 
 
 /* SIDEBARS */
@@ -294,7 +294,7 @@ POSTS & PAGES
 .post .post-image img { display:block; margin:0; line-height:0em; width:100%; height:auto; border-radius:0; }
 .post .post-body { padding:20px; border:1px solid #ddd; }
 .post .post-title { font-size:1.4em; padding:0; margin:0 0 10px 0; }
-.post .post-title a { color:inherit; }
+.post .post-title a { color:inherit;18253c }
 .post .post-byline { overflow:hidden; text-transform:uppercase; position:relative; padding:0 0 10px; margin:0 0 20px; color:#aaa; font-size:0.9em; }
 .post .post-byline:before { content:' '; position:absolute; background:#bbb; bottom:0; left:0; width:100px; height:1px; }
 .post .post-byline div { float:left; position:relative; padding:0 22px 0 0; margin-bottom:10px; }
@@ -335,7 +335,7 @@ POSTS & PAGES
 
 /* PORTFOLIO SHOWCASE */
 .portfolio { clear:both; padding:50px 0 50px; }
-.portfolio { background:#fff; }
+.portfolio { background:transparent; }
 .portfolio-item { display:block; overflow:hidden; position:relative; text-align:center; padding:1px; margin:0; }
 .portfolio-item-image { display:block; width:100%; overflow:hidden; background:#eee; position:relative; }
 .portfolio-item img { display:block; max-width:100%; margin:0 auto; width:100%; height:auto; line-height:0; -moz-transition:0.5s all; -webkit-transition:0.5s all; transition:0.5s all; }
@@ -357,7 +357,7 @@ POSTS & PAGES
 .services .service { margin-bottom:50px; }
 .services .service a:hover { text-decoration:none; }
 .services .service .service-body { margin-left:70px; }
-.services .service .service-icon { font-family:'fontawesome'; float:left; text-align:center; width:50px; height:50px; font-size:40px; margin:0 auto 20px; line-height:50px; }
+.services .service .service-icon { font-family:'fontawesome'; float:left; text-align:center; width:50px; height:50px; font-size:40px; margin:0 auto 20px; line-height:50px; display: none;}
 .services .service .service-title { margin:0 0 10px; font-size:1.2em; text-transform:uppercase; }
 .services .service .service-content { margin:0 0 10px; }
 .services .service .service-content p:last-child { margin-bottom:0; }

@@ -1,4 +1,4 @@
-<?php $query = new WP_Query('post_type=cpo_service&order=ASC&orderby=menu_order&meta_key=service_featured&meta_value=1&numberposts=-1&posts_per_page=-1'); ?>
+<?php $query = new WP_Query('post_type=cpo_service&order=ASC&orderby=menu_order'); ?>
 <?php if($query->posts): $feature_count = 0; ?>
 <div id="services" class="services dark">
 	<div class="container">

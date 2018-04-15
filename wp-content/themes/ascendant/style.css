@@ -12,9 +12,16 @@
  Text Domain: ascendant
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 @font-face {
-    font-family: MyriadPro;
-    src: url(fonts/MyriadPro-Regular.otf);
+    font-family: AdobeCaslonPro;
+    src: url(fonts/ACaslonPro-Regular.otf);
+}
+
+@font-face {
+    font-family: MyriadProBold;
+    src: url(fonts/MyriadPro-Bold.otf);
 }
 
 @font-face {
@@ -23,21 +30,21 @@
 }
 
 h1,h2,h3,h4,h5,h6, .heading {
-	font-family: "Raleway";
+	font-family: 'Roboto', "AdobeCaslonPro";
 }
 .menu-main li a,
 .slide-content {
-	font-family: "Raleway";
-	font-size: 13px;
+	font-family: 'Roboto', "AdobeCaslonPro";
+	font-size: 17px;
 	text-transform: uppercase;
 	line-height: 30px;
 	font-weight: 500;
 }
 
 body {
-	font-family: 'MyriadPro','Lato', Arial, Helvetica, sans-serif;
+	font-family: 'AdobeCaslonPro','MyriadPro','Lato', Arial, Helvetica, sans-serif;
 	color: #8c9597;
-	font-size: 15px;
+	font-size: 19px;
 	line-height: 27px;
 }
 body .primary-color,
@@ -52,7 +59,7 @@ a,
 
 
 /* Header */
-.header { position:relative; background:#fff; border-bottom:1px solid #e1e1e1; width:100%;padding: 0; }
+.header { position:relative; background:transparent; border-bottom:0px solid #e1e1e1; width:100%;padding: 0; }
 .header.header-with-slider {position: absolute;width: 100%;top: 0; left: 0; background-color: transparent;z-index: 999;}
 .header.with-top-menu.header-with-slider{top:34px;}
 .header .logo { float:left; padding-top:25px;padding-bottom:10px; }
@@ -106,14 +113,14 @@ a,
 body .section-heading,
 body .section-title,
 body .dark:not(.subfooter) .heading {
-	font-size: 30px;
+	font-size: 36px;
 	line-height: 35px;
 	font-weight: 800;
 	color: #18253c;
-	font-family: "Raleway";
+	font-family: 'Roboto',"AdobeCaslonPro", "Raleway";
 }
 body .section-heading {
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 .section-heading:before {
 	background-color: white;
@@ -128,16 +135,17 @@ body .section-heading {
 	border-style: dotted;
 	border-color: gray;
 	color: gray;
+  display: none;
 }
 .features .feature .feature-title {
-	font-size: 20px;
+	font-size: 25px;
 	color: #18253c;
 	font-weight: 700;
 	line-height: 40px;
 	margin: 35px 0 20px;
 }
 .features .feature .feature-content p {
-	font-size: 15px;
+	font-size: 19px;
 	line-height: 40px;
 }
 
@@ -162,7 +170,7 @@ body.allegiant_pro_template .tagline-title {
 }
 .tagline {
 	padding: 40px 0;
-	background-color: #18253c;
+	background-color: transparent;
 	text-align: left;
 }
 .tagline a {
@@ -174,7 +182,7 @@ body #tagline {
 
 /* Portfolio */
 .portfolio-item .portfolio-item-title {
-	opacity: 0;
+	opacity: 1;
 	font-size: 20px;
 	font-weight: 800;
 	line-height: 44px;
@@ -185,8 +193,8 @@ body #tagline {
 	opacity: 1;
 }
 .portfolio-item .portfolio-item-description {
-	font-size: 15px;
-	line-height: 38px;
+	font-size: 19px;
+	line-height: 25px;
 	top: 30%;
 }
 .portfolio-item .portfolio-item-description p {
@@ -203,7 +211,7 @@ body #tagline {
 	height: 50px;
 	line-height: 50px;
 	border-radius: 100%;
-	background-color: #46743b;
+	background-color: gray;
 	margin: 0 auto;
 }
 
@@ -303,7 +311,7 @@ input[type=submit] {
 /* Footer */
 #subfooter,
 #footer {
-	background-color: white;
+	background-color: transparent;
 	color: gray;
 }
 #footer {
@@ -339,7 +347,7 @@ body #subfooter {
 /* Sections */
 .home .services,
 .home .team {
-    background: rgba(247,247,248, .83);
+    background: transparent;
 }
 
 /* Slider */
@@ -376,7 +384,7 @@ body #subfooter {
 
 .tagline {
   padding: 0;
-  background-color: white;
+  background-color: transparent;
 }
 
 #team .row .column-narrow {
@@ -401,7 +409,7 @@ body #subfooter {
 #pagetitle h1 {
   position: absolute;
   bottom: 50%;
-  left: 50%;
+  left: calc(50% - 100px);
   color: white;
   text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
   font-size: 25px;
@@ -412,6 +420,44 @@ body #subfooter {
 }
 
 #pagetitle .single-image.wp-post-image {
-  width: 100%;
-  margin: 0;
+  margin: 0 auto;
+}
+
+/* CUSTOM STYLES */
+.tminus_countdown {
+  width: 30% !important;
+  margin: 0 35% !important;
+}
+
+.tminus.section-heading {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+#portfolio-heading, #services-heading, #portfolio-heading {
+  margin-bottom: 50px;
+}
+
+.home #main .container {
+  max-width: 100%;
+  padding: 0px;
+}
+
+.home #main .container .wpcf7 {
+  max-width: 80%;
+  margin: 0 15%;
+}
+
+body.custom-background {
+    background-position: left top !important;
+    background-repeat: repeat-y !important;
+    background-attachment: inherit !important;
+}
+
+body.home.custom-background {
+    background-position-y: -110px !important;
+}
+
+section#pagetitle {
+  background-image: none !important;
 }

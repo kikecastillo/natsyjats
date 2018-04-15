@@ -26,7 +26,7 @@
 	text-transform: uppercase;
 }
 
-/* shortcode for countdown: [tminus t="31-08-2018 15:00:00" style="circle" omitweeks="true" days="d" hours="h" minutes="m" seconds="s"/] */
+/* shortcode for countdown: [tminus t="31-08-2018 16:00:00" style="circle" omitweeks="true" days="d" hours="h" minutes="m" seconds="s"/] */
 .circle-dash, .circle-tripdash {
 	border: 0;
 	font-size: 1em;
@@ -38,7 +38,7 @@
 .circle-dash_title {
 	text-transform: none;
 	margin: 0;
-	font-size: 10px;
+	font-size: 18px;
 }
 
 .circle-hours_dash, .circle-minutes_dash, .circle-seconds_dash {
